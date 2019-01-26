@@ -1,0 +1,5 @@
+ipv6
+
+pico /etc/default/ufw
+
+IPV6=yes

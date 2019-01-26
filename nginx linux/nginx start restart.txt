@@ -1,0 +1,7 @@
+restart nginx
+
+service nginx restart
+
+nginx start
+
+service nginx start

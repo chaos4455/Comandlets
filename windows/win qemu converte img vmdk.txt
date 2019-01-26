@@ -1,0 +1,8 @@
+C:\Program Files\qemu\qemu-system-i386 -soundhw hda c:\windows95.img
+
+
+
+vmdk
+
+
+C:\Program Files\qemu\qemu-system-i386 -soundhw hda C:pasta\Windows3.vmdk

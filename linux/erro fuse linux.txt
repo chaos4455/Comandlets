@@ -1,0 +1,4 @@
+mkdir /dev/fuse
+chmod 777 /dev/fuse
+
+apt-get install fuse
