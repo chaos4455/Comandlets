@@ -1,0 +1,13 @@
+runas /noprofile /user:administrador "mmc %windir%\system32\services.msc"
+
+
+runas /noprofile /user:administrador "cmd"
+
+runas /noprofile /user:administrador  "regedit.exe"
+
+runas /noprofile /user:administrador  "%windir%\system32\rundll32.exe shell32.dll,Options_RunDLL 2"
+
+
+
+rundll32.exe shell32.dll,Control_RunDLL srchadmin.dll 
+

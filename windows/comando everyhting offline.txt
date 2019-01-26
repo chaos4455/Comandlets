@@ -1,0 +1,1 @@
+c:\Program Files\Everything\Everything.exe -read-only  -db C:\Everything.db  

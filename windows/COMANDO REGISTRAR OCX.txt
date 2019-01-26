@@ -1,0 +1,4 @@
+runas /noprofile /user:hpadmin "cmd"
+
+
+Regsvr32  c:\users\public\OutlookBar.ocx

@@ -1,0 +1,16 @@
+runas /noprofile /user:administrador  "mmc %windir%\system32\services.msc"
+
+
+runas /noprofile /user:administrador  "rundll32.exe shell32.dll,Control_RunDLL srchadmin.dll"
+
+
+criar novo "new" binário "binary" com o valor do arquivo .ost ou .pst
+Exemplo: C:\Users\tbrhpeedosan\AppData\Local\Microsoft\Outlook\emailcompleto.ost
+
+executa cmd como administrador 
+
+cmd.exe runas /noprofile /user:administrador "cmd"
+
+NET STOP Wsearch
+
+NET START Wsearch
